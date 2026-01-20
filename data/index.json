@@ -1,0 +1,50 @@
+{
+  "regions": [
+    {
+      "id": "zakarpattia",
+      "title": "Закарпаття",
+      "cities": [
+        {
+          "id": "uzhhorod",
+          "title": "Ужгород"
+        },
+        {
+          "id": "mukachevo",
+          "title": "Мукачево"
+        },
+        {
+          "id": "svalyava",
+          "title": "Свалява"
+        },
+        {
+          "id": "polyana",
+          "title": "Поляна"
+        },
+        {
+          "id": "khust",
+          "title": "Хуст"
+        },
+        {
+          "id": "tyachiv",
+          "title": "Тячів"
+        },
+        {
+          "id": "rakhiv",
+          "title": "Рахів"
+        },
+        {
+          "id": "vynohradiv",
+          "title": "Виноградів"
+        },
+        {
+          "id": "berehove",
+          "title": "Берегове"
+        },
+        {
+          "id": "irshava",
+          "title": "Іршава"
+        }
+      ]
+    }
+  ]
+}
