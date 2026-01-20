@@ -14,9 +14,9 @@ export default async function QueuePage({
 }) {
   const { oblast, misto, cherha } = await params;
 
-  const data = await import(
-    `@/data/schedules/${oblast}/${misto}.json`
-  ).then((m) => m.default);
+  const data = await import(`@/data/schedules/${oblast}/${misto}.json`).then(
+    (m) => m.default
+  );
 
   const slots: Slot[] | undefined = data.queues?.[cherha];
 
@@ -64,8 +64,7 @@ export default async function QueuePage({
         </div>
         {next && (
           <div style={{ marginTop: 6 }}>
-            Наступна зміна: {next.at} (
-            {next.nextOff ? "буде ❌" : "буде ✅"}
+            Наступна зміна: {next.at} ({next.nextOff ? "буде ❌" : "буде ✅"}
             {next.tomorrow ? ", завтра" : ""})
           </div>
         )}
